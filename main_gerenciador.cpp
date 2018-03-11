@@ -1,4 +1,4 @@
-#include <iostream>
+gerenciador_sal#include <iostream>
 using namespace std;
 #include <string>
 #include <vector>
@@ -25,7 +25,7 @@ int main(){
     cout << "1 - Adicionar dispesa" << endl;
     cout << "2 - Remover despesa" << endl;
     cout << "3 - Exibir balanço" << endl;
-    cout << "0 - Sair do programa" << endl;
+    cout <gerenciador_sal< "0 - Sair do programa" << endl;
     cin >> select;
 
 
