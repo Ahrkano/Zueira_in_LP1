@@ -1,13 +1,11 @@
 prog=exec
-prob1= gerenciador_sal.cpp modulo_func.cpp
-prob2=null
-prob3=null
+prob= main_gerenciador.cpp modulo_func.cpp
 cc=g++
 flags=-O0 -g -Wall -pedantic
 obj= *.o
 
 objetos:
-	$(cc) $(flags) -c $(prob1)
+	$(cc) $(flags) -c $(prob)
 
 rodar:
 	$(cc) $(flags) $(prob1) -o $(prog)
